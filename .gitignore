@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 Reporte Semana 2.pdf
+.venv/
+env/
