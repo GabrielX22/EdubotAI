@@ -202,26 +202,9 @@ EdubotAI/
 | Variable | Descripción | Obligatoria |
 |---|---|---|
 | `GROQ_API_KEY` | Clave de la API de Groq para el modelo de lenguaje | Sí |
+| `X-API-Key` | Clave de acceso a la API para predecir el riesgo de deserción | Si |
 | `APP_ENV` | Entorno de ejecución (`production` / `development`) | No |
 | `API_PORT` | Puerto del servidor (por defecto 8000) | No |
-
----
-
-## 🤝 Contribución
-
-Este proyecto sigue un flujo de trabajo con ramas:
-
-```bash
-# Crear nueva rama para tu tarea
-git checkout -b tipo/descripcion-corta
-
-# Ejemplos:
-git checkout -b feat/nueva-funcionalidad
-git checkout -b fix/correccion-error
-git checkout -b docs/actualizar-readme
-```
-
-Una vez terminado tu trabajo, abre un **Pull Request** hacia `main` para que el equipo lo revise antes de hacer el merge.
 
 ---
 
@@ -229,9 +212,9 @@ Una vez terminado tu trabajo, abre un **Pull Request** hacia `main` para que el 
 
 | Integrante | Rol |
 |---|---|
-| Melvin Amaya | API de Predicción de Deserción + Documentación |
-| Gabriel | Bot de Telegram + API de Lenguaje |
-| Alexis | Plan de Infraestructura, Costos y Riesgos |
+| Melvin Pereira | API de Predicción de Deserción + Documentación |
+| Gabriel Henriquez | Bot de Telegram + API de Lenguaje |
+| Alexis Caliz | Plan de Infraestructura, Costos y Riesgos |
 
 ---
 
