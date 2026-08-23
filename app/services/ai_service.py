@@ -13,7 +13,7 @@ def generar_respuesta_tutor(modulo: str, mensaje: str) -> str:
     try:
         # Llamada directa y limpia a Groq
         response = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="groq/compound-mini",
             messages=[
                 {"role": "system", "content": "Eres Edubot. Responde de forma directa, educada y en menos de 50 palabras."},
                 {"role": "user", "content": f"Módulo: {modulo}. Duda: {mensaje}"}
