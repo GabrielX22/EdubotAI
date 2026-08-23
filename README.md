@@ -226,3 +226,9 @@ EdubotAI/
 - [Supabase](https://supabase.com/)
 - [Docker](https://docs.docker.com/)
 - [scikit-learn](https://scikit-learn.org/)
+
+## 🚀 Release Final (v1.1.0)
+* **URL Pública:** https://edubotai-3f7h.onrender.com
+* **Manifiesto:** Consulta el archivo `release-manifest.yml` en este repositorio para ver los detalles técnicos y limitaciones.
+* **Commit Evaluado:** Se ha generado el Tag `v1.1.0` para la evaluación final.
+* **Bot de Telegram::** @Edubot_AIbot 

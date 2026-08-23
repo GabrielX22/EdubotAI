@@ -1,0 +1,11 @@
+release:
+  version: "v1.1.0"
+  date: "2026-08-20"
+  description: "Release final para defensa Módulo 4. Incluye optimización de tokens, caché y soporte para 40 usuarios concurrentes."
+components:
+  api: "FastAPI v0.100+"
+  ai_model: "llama-3.3-70b-versatile (Groq)"
+  deployment: "Render Web Service"
+known_limitations:
+  - "Cold start de 30s si el servicio de Render entra en inactividad."
+  - "Rate limit de Groq Cloud capa gratuita."
